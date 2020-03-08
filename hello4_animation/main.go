@@ -86,7 +86,7 @@ func main() {
 	dest.X = (windowWidth - dest.W) / 2
 
 	// require float resolution for y position
-	var yPos float32 = windowHeight
+	yPos := float32(windowHeight)
 
 	// animation loop
 	for dest.Y >= -dest.H {
