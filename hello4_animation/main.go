@@ -11,9 +11,8 @@ import (
 )
 
 const (
-	windowWidth  = 640
-	windowHeight = 480
-	scrollSpeed  = 300 // speed in pixels/second
+	windowWidth, windowHeight = 640, 480
+	scrollSpeed               = 300 // speed in pixels/second
 )
 
 func main() {
