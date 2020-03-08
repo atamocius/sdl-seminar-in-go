@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	// attempt to initialize graphics and timer system
+	// attempt to initialize graphics
 	if err := sdl.Init(sdl.INIT_VIDEO); err != nil {
 		fmt.Printf("error initializing SDL: %s\n", err)
 		return
